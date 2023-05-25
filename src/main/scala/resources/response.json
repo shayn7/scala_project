@@ -1,0 +1,29 @@
+{
+  "id": "4735YiDtCstD1Y445YHstT",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "seat": "6670:8027:659779",
+      "bid": [
+        {
+          "ext": {
+            "third_party_buyer_token": "7Njk3e2s21E6Url23a30w4d4621Qh57u4w2L9uy4xq864V6lMf348aC72L767592sIPdJ84U2E2aU00jjVGF3wbjl25L019c7Z43eKVb09Sk5fRX72B33Q92f359l40M0t6jAseiJVp8"
+          },
+          "crid": "test_creative_id_109447",
+          "exp": 900,
+          "id": "M9mAq8768Nr7W048E6G",
+          "price": 0.025286061000000002,
+          "adomain": [
+            "google.com"
+          ],
+          "w": 320,
+          "impid": "1",
+          "h": 50,
+          "burl": "https://test.com/imp?id=123456",
+          "adm": "<iframe marginwidth=0 marginheight=0 height=600 frameborder=0 width=160 scrolling=no src=\"https://test.com/ads?id=123456&curl=%%CLICK_URL_ESC%%&wprice=%%WINNING_PRICE_ESC%%\"></iframe>",
+          "cid": "48666909902"
+        }
+      ]
+    }
+  ]
+}

@@ -15,6 +15,9 @@ class JsonActor extends Actor {
       val data = ujson.read(file)
       println("request id is: " +  data("id"))
       println("user agent is: " +  data.obj.get("device").toString.split(",")(2).substring(4))
+      val jsonString = os.read(os.pwd/"src"/"main"/"scala"/"resources"/"response.json")
+      println("the response is:")
+      println(jsonString)
       sender ! JsonProcessedMsg()
     }
   }
